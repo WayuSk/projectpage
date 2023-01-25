@@ -1,0 +1,19 @@
+.wrapperBase {
+  transition: height 1s, background-color 1s;
+}
+
+.heroWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(var(--wayu-blue-rgb)), rgb(var(--wayu-green-rgb)));
+}
+
+.heroWrapperMenu {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(var(--background-rgb)), rgb(var(--background-rgb)));
+}
